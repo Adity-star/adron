@@ -57,3 +57,9 @@
     100% { background-position: -200% 0; }
   }
 }
+
+@font-face {
+  font-family: 'Adron';
+  src: url('/fonts/adron.woff2') format('woff2');
+  font-weight: 200;
+}
