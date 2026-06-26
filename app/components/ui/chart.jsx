@@ -5,7 +5,7 @@ import * as React from "react"
 // oxlint-disable-next-line emergent/prefer-dynamic-import
 import * as RechartsPrimitive from "recharts"
 
-import { cn } from "@/lib/utils"
+import { cn } from "../../lib/utils"
 
 // Format: { THEME_NAME: CSS_SELECTOR }
 const THEMES = {
