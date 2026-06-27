@@ -1,6 +1,7 @@
 import { Inter, Cormorant_Garamond } from 'next/font/google'
 import './globals.css'
 import { Toaster } from 'sonner'
+import { Analytics } from '@vercel/analytics/next'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -30,6 +31,7 @@ export default function RootLayout({ children }) {
       <body className="bg-black text-neutral-100 antialiased font-sans selection:bg-white selection:text-black">
         {children}
         <Toaster theme="dark" position="bottom-center" />
+        <Analytics />
       </body>
     </html>
   )
